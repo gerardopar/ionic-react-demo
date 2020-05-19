@@ -1,0 +1,14 @@
+.result {
+    --background: whitesmoke; /* overrides the components default background styles */
+    --color: black; /* overrides the components default text-color styles */
+}
+
+.result__title{
+    font-size: 1rem;
+}
+
+.result__subtitle{
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 1.5rem 0;
+}

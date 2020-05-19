@@ -1,0 +1,13 @@
+ion-Col {
+    border: solid 1px whitesmoke;
+}
+
+/* custom grid height */
+.demoGrid { 
+    height: 100vh;
+}
+
+/* custom row height */
+.demoGrid__row {
+    height: 50%;
+}

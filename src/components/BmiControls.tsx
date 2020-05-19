@@ -15,15 +15,24 @@ const BmiControls: React.FC<{ // typescript props -> definitions
         handleResetInput: () => void;
     }> = ({ handleCalculateBmi, handleResetInput }) => {
     return (
-        <IonRow>
-            <IonCol className="ion-text-left">
-                <IonButton onClick={handleCalculateBmi}>
+        <IonRow className="ion-margin-top">
+            <IonCol size="12" sizeMd="6" className="ion-text-center">
+                <IonButton 
+                    expand="block" 
+                    color="primary" 
+                    onClick={handleCalculateBmi}
+                >
                 <IonIcon icon={calculatorOutline} slot="start" />
                 Calculate
                 </IonButton>
             </IonCol>
-            <IonCol className="ion-text-right">
-                <IonButton onClick={handleResetInput}>
+            <IonCol size="12" sizeMd="6" className="ion-text-center">
+                <IonButton 
+                    expand="block" 
+                    color="secondary" 
+                    fill="outline" 
+                    onClick={handleResetInput}
+                >
                 <IonIcon icon={refreshOutline} slot="start" />
                 Reset
                 </IonButton>
